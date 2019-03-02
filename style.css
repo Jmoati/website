@@ -1,0 +1,100 @@
+html, body {
+    background: #477AB7;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #EEE;
+    letter-spacing: 1px;
+    max-width: 800px;
+    margin: auto;
+}
+
+div.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.title h1, div.title h2 {
+    margin: 1px;
+}
+
+div.title h1 {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 30px
+}
+
+div.title h2 {
+    font-family: 'HelveticaNeue-UltraLightItalic', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a.btn-default, a.btn-default:hover {
+    font-size: 13px;
+    color: #477AB7;
+    background-color: #EEE;
+}
+
+a.btn-default:hover {
+    background-color: #FFF;
+}
+
+div.download {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.description {
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+div.description h1 {
+    font-size: 16px;
+}
+
+div.social {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+div.social a {
+    color: #EEE;
+    text-decoration: none;
+}
+
+div.social a:hover {
+    color: #FFF;
+}
+
+@media screen and (max-width: 700px) {
+    div.twoCols div.description {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    div.right {
+        text-align: right;
+    }
+
+    div.twoCols div.description {
+        width: 47%;
+    }
+
+    div.twoCols div.description {
+        float: left
+    }
+
+    div.twoCols:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+div.description a{
+    color: #EEEEEE;
+}
